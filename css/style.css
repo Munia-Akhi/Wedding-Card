@@ -1,0 +1,46 @@
+body h1 h2 p {
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    background-color: #ececec;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    height: 100vh ;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 0 0 50% 50%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.icon h1 {
+    margin-top: 5%;
+}
+.icon p{
+    font-size: 18px;
+}
+.wish {
+    text-align: center;
+}
+.wish button {
+    margin-top:10% ;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    font-weight: 500px;
+    font-size: 21px;
+    border-radius: 10px;
+    color: #ececec;
+}
+.wish p {
+    font-family: cursive;
+    font-size: 19px;
+}
